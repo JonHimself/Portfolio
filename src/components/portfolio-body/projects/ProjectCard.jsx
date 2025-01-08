@@ -21,6 +21,13 @@ const ProjectCard = ({project}) => {
                         </div>
                     </a>
                     }
+                    {project.deploy && 
+                    <a className='project-link' href={project.deploy} rel='noreferrer' target="_blank">
+                        <div className='link-button'>
+                        <i className="devicon-heroku-original"></i>Cryptid.v1
+                        </div>
+                    </a>
+                    }
                 </div>
                 <p>{project.about}</p>
                 <div className="project-tags">

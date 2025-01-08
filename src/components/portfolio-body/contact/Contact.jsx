@@ -14,7 +14,7 @@ const Contact = () => {
                     <Socials />
                 </div>
                 <div className="download">
-                    <a href={require('../../../assests/Resume.pdf').default} download>
+                    <a href={require('../../../assests/JonRobeson-Resume.pdf').default} download>
                         <i className='fi-rr-cloud-download download-icon'></i>
                         Download Resume</a>
                 </div>
